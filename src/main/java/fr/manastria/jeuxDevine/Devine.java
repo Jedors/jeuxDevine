@@ -1,12 +1,6 @@
 package fr.manastria.jeuxDevine;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class Devine {
-
-	private static final Logger logger = LoggerFactory.getLogger(Devine.class);
-
 
 	public Devine(String nom, int nombreSup) {
 
