@@ -6,19 +6,19 @@ package fr.manastria.jeuxDevine;
  */
 
 public enum Profile {
-	PASMALIN("Pas malin"),
-	CHANCEUX("Chanceux"),
-	RATIONNEL("Rationnel");
+    PASMALIN("Pas malin"),
+    CHANCEUX("Chanceux"),
+    RATIONNEL("Rationnel");
 
-	private String name = "";
+    private String name = "";
 
-	//Constructeur
-	Profile(String name){
-		this.name = name;
-	}
+    //Constructeur
+    Profile(String name){
+        this.name = name;
+    }
 
-        @Override
-	public String toString(){
-		return name;
-	}
+    @Override
+    public String toString(){
+        return name;
+    }
 }
