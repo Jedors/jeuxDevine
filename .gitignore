@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/eclipse,netbeans,java,maven,intellij
 
 ### Eclipse ###
@@ -69,6 +70,8 @@ hs_err_pid*
 
 
 ### Maven ###
+=======
+>>>>>>> 41ecfaef413a5f627fc9e1f261d4622c85889ded
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -78,6 +81,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+<<<<<<< HEAD
 
 
 ### Intellij ###
@@ -135,3 +139,5 @@ test-output/
 ### Logs ###
 logs/
 logs-to-collect/
+=======
+>>>>>>> 41ecfaef413a5f627fc9e1f261d4622c85889ded

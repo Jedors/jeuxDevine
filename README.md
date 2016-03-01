@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Fichier README pour le projet jeuxDevine
 =====================================================
@@ -11,3 +12,7 @@ Markdown est un langage de balisage léger. Son but est d'offrir une syntaxe fac
   - Documentation de Bitbucket : https://confluence.atlassian.com/stash/markdown-syntax-guide-312740094.html#notfound
   - Documentation de GitHub : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+=======
+# jeuxDevine
+M2103 - Jeux Devine rendu
+>>>>>>> 41ecfaef413a5f627fc9e1f261d4622c85889ded
