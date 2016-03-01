@@ -6,7 +6,7 @@ import fr.manastria.utils.Console;
  * Created by Jean-Philippe on 31/10/2015.
  * 
  * Edited by Jerome on 23/02/2016
- * @version 1.1
+ * @version 1.2
  */
 public class IHM
 {
@@ -29,6 +29,7 @@ public class IHM
         // on demande au jeu de tirer un nombre aléatoire
         devine.determineNombreSecret();
 
+        System.out.println("Pour abandonner, entrez un nombre négatif");
 
         int result = -2, value;
 
@@ -38,20 +39,28 @@ public class IHM
             
             if (value >= 0)
             {
-                result = devine.nombreJoue(value);
+                if (value <= devine.getNombreLimiteSub())
+                {
+                    result = devine.nombreJoue(value);
                 
-                if (result > 0)
-                {
-                    System.out.println("Trop grand");
-                }
-                else if (result < 0)
-                {
-                    System.out.println("Trop petit");
+                    if (result > 0)
+                    {
+                        System.out.println("Trop grand");
+                    }
+                    else if (result < 0)
+                    {
+                        System.out.println("Trop petit");
+                    }
+                    else
+                    {
+                        System.out.println("Vous avez gagnez !");
+                    }
                 }
                 else
                 {
-                    System.out.println("Vous avez gagnez !");
+                    System.out.println("Erreur : Nombre trop grand");
                 }
+                
             }
             else
             {

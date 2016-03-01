@@ -13,6 +13,9 @@ public class Devine {
     private int nbSecret;
     private int nbCoup;
     
+    public int getNombreLimiteSub() {
+        return nombreLimiteSub;
+    }
     
     /**
      * Constructeur
